@@ -1,6 +1,6 @@
 class Vehicle
   define_method(:initialize) do |make, model, year|
-    # @make = make
+    @make = make
     @year = year
   end
 
