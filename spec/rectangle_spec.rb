@@ -9,8 +9,8 @@ describe(Rectangle) do
     end
 
     it("returns true if the lenght equals the width") do
-      test_rectangle = Rectangle.new(15, 30)
-      expect(test_rectangle.square()).to(eq(true))
+      test_rectangle = Rectangle.new(30, 30)
+      expect(test_rectangle.square?()).to(eq(true))
     end
   end
 end
